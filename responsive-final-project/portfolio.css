@@ -1,0 +1,73 @@
+body {
+    background-color: lightgrey;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body { background-color: lightgrey; }
+}
+@media screen and (min-width: 401px) and (max-width: 599px) {
+    body { background-color: silver; }
+}
+@media screen and (min-width: 600px) {
+    body { background-color: darkgrey; }
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    display: block;
+    color: teal;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: whitesmoke;
+}
+
+.films > img{
+    width: auto;
+    height: 400px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+}
+
+img {
+    float: left;
+    width:  300px;
+    height: 425px;
+    object-fit: cover;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content:center;
+	text-align:center;
+}
+
+.Robin {
+    font-family: 'Cinzel', serif;
+    font-size: 4em;
+    padding: 10px;
+    text-align: center;
+    justify-content:center;
+}
+
+.wrapper {
+    position:relative;
+    display: inline-block;
+    float: none;
+    padding:10px;
+}

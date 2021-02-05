@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>
+      Home
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-card class="welcome-card">
+      <a href="/toc">
+        <img src="https://i.pinimg.com/originals/88/81/44/8881444f23794650da1fe33c1bed39e0.gif" alt="" />
+      </a>
+      <ion-card-header>
+        <ion-card-title>Lesson 5 Hands On</ion-card-title>
+      </ion-card-header>
+    </ion-card>
+    <ion-list lines="none">
+      <ion-button color="success" expand="full" [routerDirection]="'root'" [routerLink]="['/toc']">To The Table of Contents</ion-button>
+    </ion-list>
+</ion-content>

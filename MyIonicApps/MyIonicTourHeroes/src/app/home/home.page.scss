@@ -1,0 +1,83 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+  background-color: white !important;
+  --ion-background-color: white;
+  --color:black;
+  }
+
+
+  .selected {
+    background-color: #cfd8dc !important;
+    color: black;
+  }
+  .heroes {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 15em;
+  }
+  .heroes li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #eee;
+    margin: 0.5em;
+    padding: 0.25em 0;
+    height: 2.6em;
+    border-radius: 4px;
+    color: black;
+  }
+  .heroes li.selected:hover {
+    background-color: #bbd8dc !important;
+    color: white;
+  }
+  .heroes li:hover {
+    color: #607d8b;
+    background-color: #ddd;
+    left: 0.1em;
+  }
+  .heroes .text {
+    position: relative;
+    top: -3px;
+  }
+  .heroes .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color: #607d8b;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 3.2em;
+    margin-right: 0.8em;
+    border-radius: 4px 0 0 4px;
+  }

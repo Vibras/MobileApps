@@ -1,0 +1,13 @@
+<ion-header>
+  <ion-toolbar class="new-background-color">
+    <ion-title>Table of Contents</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="new-background-color">
+  <ion-list *ngFor="let chapter of chapters"> 
+    <ion-item [routerDirection]="'root'" [routerLink]="[chapter.url]" class="new-background-color">
+      {{chapter.title}}
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,58 @@
+body {
+    background-color: lightgrey;
+}
+
+@media screen and (min-width: 0px) and (max-width: 400px) {
+    body { background-color: lightgrey; }
+}
+@media screen and (min-width: 401px) and (max-width: 599px) {
+    body { background-color: silver; }
+}
+@media screen and (min-width: 600px) {
+    body { background-color: darkgrey; }
+}
+
+.nav {
+    float: right;
+}
+
+.nav a {
+    display: block;
+    color: teal;
+    text-align: left;
+    padding: 15px 17px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: whitesmoke;
+}
+
+.Robin {
+    font: Trebuchet MS, Palatino, Verdana;
+    font-size: 3em;
+}
+
+.image {
+    padding-top: 45px;
+}
+
+.text1 {
+    font: Palatino, Verdana;
+    font-size: 16px;
+}
+
+.SignUp {
+    text-align: left;
+    font: Verdana;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.form {
+    text-align: left;
+}
+
+.form1 {
+    font: Courier New, Arial, Times;
+}

@@ -1,0 +1,7 @@
+{
+  "name": "MyIonicTourHeroes",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
